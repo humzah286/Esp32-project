@@ -1,0 +1,21 @@
+{
+  "test": {
+    "bool": true,
+    "double": 37.51755,
+    "float": 12.2,
+    "int": 2,
+    "json": {
+      "value": {
+        "round": [
+          "cool!",
+          "smart!",
+          "smart!"
+        ]
+      },
+      "vaue": {
+        "ts": 1652123077581
+      }
+    },
+    "string": "Hello World!"
+  }
+}

@@ -1,0 +1,7 @@
+this small project is to test our connection to firebase database
+
+we send different types of data types in our test node of JSON file that is stored in Firebase. 
+
+In return, Our micro-controller fetches those results and displays them on our serial monitor, as shown in image "after 2 iterations" 
+
+exported JSON object is also attached in this folder.
