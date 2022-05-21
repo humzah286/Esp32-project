@@ -124,6 +124,8 @@ void setup()
   config.tcp_data_sending_retry = 1;
 
   */
+
+ Serial.println("Hello world, srial typed by esp32 cam");
 }
 
 void loop()
@@ -157,7 +159,7 @@ void loop()
 
     Serial.printf("Get double... %s\n", Firebase.getDouble(fbdo, F("/test/double")) ? String(fbdo.to<double>()).c_str() : fbdo.errorReason().c_str());
 
-    Serial.printf("Set string... %s\n", Firebase.setString(fbdo, F("/test/string"), "Hello World!") ? "ok" : fbdo.errorReason().c_str());
+    Serial.printf("Set string... %s\n", Firebase.setString(fbdo, F("/test/string"), "Uploaded from esp32cam!") ? "ok" : fbdo.errorReason().c_str());
 
     Serial.printf("Get string... %s\n", Firebase.getString(fbdo, F("/test/string")) ? fbdo.to<const char *>() : fbdo.errorReason().c_str());
 

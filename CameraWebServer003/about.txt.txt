@@ -1,3 +1,5 @@
 this code was written and compiled in arduino ide 
 
 it was taken from example code, to run the camera server on web and see options such as get still, start stream and face recognition and etc.
+
+Extracting HTML code from camera_index.h using CyberChef by decoding the Hexadecimal code to text.
